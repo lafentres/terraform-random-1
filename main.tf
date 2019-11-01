@@ -7,5 +7,5 @@ resource "random_id" "whatever" {
 }
 
 output "random" {
-  value = random_id.random.hex
+  value = random_id.whatever.hex
 }
