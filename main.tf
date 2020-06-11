@@ -3,7 +3,7 @@ resource "random_id" "whatever" {
     uuid = uuid()
   }
 
-  byte_length = 16
+  byte_length = 17
 }
 
 output "random" {
